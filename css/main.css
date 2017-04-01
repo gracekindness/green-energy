@@ -1,0 +1,144 @@
+/* -- DEFAULTS -- */
+@import url(../font-awesome/css/font-awesome.min.css);
+* {
+    box-sizing: border-box;
+}
+html, body {
+    font-family:'Raleway', sans-serif;;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    line-height: 3rem;
+	font-size: 1.3rem;
+	color: #706c6c;
+	text-align: center;
+}
+h2 {
+    line-height: 1rem;
+	font-size: 1.3rem;
+	color: #706c6c;
+	text-align: center;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #B8860B;
+}
+img {
+	width: 50%;
+	float: left;
+}
+
+.box {
+    width: 90%;
+	max-width: 80rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box1 {
+    width: 90%;
+	max-width: 80rem;
+    margin: 0 auto;
+}
+
+p {
+   text-align: center;
+}
+
+
+/* -- NAV DIV -- */
+nav ul { 
+    margin: 0 0 1.5rem 0;
+	padding: 0;
+	border: 1px solid #999
+}
+nav ul li a {
+	display: block;
+	border-bottom: 1px solid #CCC;
+	padding: 1rem;
+	background-color: #EEE;
+}
+nav ul li a:hover {
+	background-color: #666;
+	border-bottom: 1px solid #666;
+	color: white;
+	text-shadow: 0 1px 1px #333;
+}
+nav ul li:nth-of-type(6) a {
+	border-bottom: none;
+}
+nav h1 {
+	font-family: 'Damion';
+    margin: 1.5rem 2rem 1.5rem 0;
+}
+
+
+/*-- --SLIDER DIV -- */
+header {
+    position: relative;
+}
+
+.mh-image {
+    transition: opacity 1s ease-out;
+}
+
+.mh-image img {
+    width: 100%;
+}
+
+/* BUTTON DIV -- */
+
+.btn {
+    margin: 100px;
+}
+
+i:hover {
+   color: lightgreen; 
+    text-shadow: 0 1px 1px lightgrey;
+}
+
+
+/* -- FIRST DIV -- */
+.second::after{ /* clear <p> floated left */
+	content: "";
+	display: block;
+	clear: both;
+}
+.second ul li{
+	width: 25%;
+}
+.second .names {
+	margin: 0.5rem 0;
+}
+.second p{
+	width: 50%;
+	float: left;
+}
+
+
+/* -- FOOTER -- */
+footer p {
+	color: #4c4343;
+}
+
+
+/* -- MEDIA QUERIES -- */
+@media all and (min-width: 40rem){
+	
+		h1 {
+			line-height: 3.5rem;
+			font-size: 2rem;
+		}
+	}
+
+
+}
